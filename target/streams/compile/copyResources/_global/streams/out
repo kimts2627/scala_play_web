@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/apple/Desktop/scala_play_web/conf/logback.xml,/Users/apple/Desktop/scala_play_web/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/apple/Desktop/scala_play_web/conf/messages,/Users/apple/Desktop/scala_play_web/target/scala-2.13/classes/messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/apple/Desktop/scala_play_web/conf/application.conf,/Users/apple/Desktop/scala_play_web/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/apple/Desktop/scala_play_web/conf/routes,/Users/apple/Desktop/scala_play_web/target/scala-2.13/classes/routes)[0m

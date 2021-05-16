@@ -1,13 +1,17 @@
-name := "scala_play_web"
- 
-version := "1.0" 
-      
-lazy val `scala_play_web` = (project in file(".")).enablePlugins(PlayScala)
-
-      
-resolvers += "Akka Snapshot Repository" at "https://repo.akka.io/snapshots/"
-      
-scalaVersion := "2.13.5"
-
-libraryDependencies ++= Seq( jdbc , ehcache , ws , specs2 % Test , guice )
-      
+lazy val root = (project in file("."))
+  .enablePlugins(PlayScala)
+  .settings(
+    name := """play-scala-hello-world-tutorial""",
+    organization := "com.example",
+    version := "1.0-SNAPSHOT",
+    scalaVersion := "2.13.5",
+    libraryDependencies ++= Seq(
+      guice,
+      "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
+    ),
+    scalacOptions ++= Seq(
+      "-feature",
+      "-deprecation",
+      "-Xfatal-warnings"
+    )
+  )
